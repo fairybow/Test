@@ -25,6 +25,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Cpp.hint" />
+    <None Include="..\README.md" />
+    <None Include="..\.gitignore" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="source\MainWindow.h">
