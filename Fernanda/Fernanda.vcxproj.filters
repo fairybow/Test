@@ -35,7 +35,7 @@
     <QtMoc Include="source\MainWindow.h">
       <Filter>Source</Filter>
     </QtMoc>
-    <QtMoc Include="source\splitter\Splitter.hpp">
+    <QtMoc Include="source\splitter\Splitter.h">
       <Filter>Source\Splitter</Filter>
     </QtMoc>
     <QtMoc Include="source\splitter\TrueSplitter.hpp">
@@ -48,6 +48,9 @@
     </ClCompile>
     <ClCompile Include="source\MainWindow.cpp">
       <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\splitter\Splitter.cpp">
+      <Filter>Source\Splitter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

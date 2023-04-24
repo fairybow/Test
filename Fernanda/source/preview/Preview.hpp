@@ -6,7 +6,8 @@
 class Preview : public QWidget
 {
 public:
-	inline Preview(QWidget* parent) : QWidget(parent)
+	inline Preview(QWidget* parent = nullptr)
+		: QWidget(parent)
 	{
 		setContentsMargins(0, 0, 0, 0);
 		Layout::set(this, m_view);
