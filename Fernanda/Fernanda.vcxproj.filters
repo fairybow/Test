@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Translation">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source\Preview">
+      <UniqueIdentifier>{ebe74914-e259-4ef3-8569-7bdfb34f58d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Editor">
+      <UniqueIdentifier>{e30ec776-d711-4399-afbf-081ee41eaef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Splitter">
+      <UniqueIdentifier>{82d7f2e5-d306-46a3-b618-c5f2630c3e6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Fernanda.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="source\MainWindow.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="source\splitter\Splitter.hpp">
+      <Filter>Source\Splitter</Filter>
+    </QtMoc>
+    <QtMoc Include="source\splitter\TrueSplitter.hpp">
+      <Filter>Source\Splitter</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MainWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Layout.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\preview\WebDocument.hpp">
+      <Filter>Source\Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="source\preview\WebEnginePage.hpp">
+      <Filter>Source\Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="source\preview\WebEngineView.hpp">
+      <Filter>Source\Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="source\preview\Preview.hpp">
+      <Filter>Source\Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="source\splitter\SplitterHandle.hpp">
+      <Filter>Source\Splitter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
