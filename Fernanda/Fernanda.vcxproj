@@ -111,6 +111,8 @@
     <ClInclude Include="source\preview\WebEnginePage.hpp" />
     <ClInclude Include="source\preview\WebEngineView.hpp" />
     <ClInclude Include="source\splitter\SplitterHandle.hpp" />
+    <ClInclude Include="source\Version.hpp" />
+    <QtMoc Include="source\StartCop.hpp" />
     <QtMoc Include="source\splitter\TrueSplitter.hpp" />
     <QtMoc Include="source\splitter\Splitter.h" />
   </ItemGroup>

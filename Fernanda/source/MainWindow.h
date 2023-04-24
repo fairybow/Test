@@ -16,9 +16,9 @@ public:
 
 private:
 	QMenuBar* m_menuBar = new QMenuBar(this);
+	QStatusBar* m_statusBar = new QStatusBar(this);
 	QTreeView* m_treeView = new QTreeView;
 	QPlainTextEdit* m_editor = new QPlainTextEdit;
 	Preview* m_preview = new Preview;
 	Splitter* m_splitter = new Splitter(Qt::Horizontal, { m_treeView, m_editor, m_preview }, this);
-	QStatusBar* m_statusBar = new QStatusBar(this);
 };

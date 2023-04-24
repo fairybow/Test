@@ -41,6 +41,9 @@
     <QtMoc Include="source\splitter\TrueSplitter.hpp">
       <Filter>Source\Splitter</Filter>
     </QtMoc>
+    <QtMoc Include="source\StartCop.hpp">
+      <Filter>Source</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\Main.cpp">
@@ -71,6 +74,9 @@
     </ClInclude>
     <ClInclude Include="source\splitter\SplitterHandle.hpp">
       <Filter>Source\Splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Version.hpp">
+      <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
