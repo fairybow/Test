@@ -94,7 +94,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="Cpp.hint" />
-    <ResourceCompile Include="Fernanda.rc" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="source\MainWindow.h" />
@@ -115,6 +114,9 @@
     <QtMoc Include="source\StartCop.hpp" />
     <QtMoc Include="source\splitter\TrueSplitter.hpp" />
     <QtMoc Include="source\splitter\Splitter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\Resource.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
