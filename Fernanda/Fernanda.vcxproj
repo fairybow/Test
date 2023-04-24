@@ -99,6 +99,7 @@
     <QtMoc Include="source\MainWindow.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\editor\LineNumberArea.cpp" />
     <ClCompile Include="source\Main.cpp" />
     <ClCompile Include="source\MainWindow.cpp" />
     <ClCompile Include="source\splitter\Splitter.cpp" />
@@ -106,7 +107,7 @@
   <ItemGroup>
     <QtMoc Include="source\editor\Editor.hpp" />
     <QtMoc Include="source\editor\TrueEditor.hpp" />
-    <QtMoc Include="source\editor\LineNumberArea.h" />
+    <ClInclude Include="source\editor\LineNumberArea.h" />
     <ClInclude Include="source\Layout.hpp" />
     <ClInclude Include="source\preview\Preview.hpp" />
     <ClInclude Include="source\preview\WebDocument.hpp" />

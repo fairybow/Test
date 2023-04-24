@@ -1,18 +1,21 @@
 #pragma once
 
+#include <QPaintEvent>
+#include <QSize>
 #include <QWidget>
+
+class TrueEditor;
 
 class LineNumberArea : public QWidget
 {
-	Q_OBJECT
-
 public:
-	inline LineNumberArea(QWidget* parent = nullptr)
-		: QWidget(parent)
-	{
-		//
-	}
+	LineNumberArea(TrueEditor* parent = nullptr);
+
+	virtual QSize sizeHint() const override;
+
+protected:
+	virtual void paintEvent(QPaintEvent* event) override;
 
 private:
-	//
+	TrueEditor* m_parent;
 };

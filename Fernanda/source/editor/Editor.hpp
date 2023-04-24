@@ -1,6 +1,7 @@
 #pragma once
 
 #include "../Layout.hpp"
+#include "LineNumberArea.h"
 #include "TrueEditor.hpp"
 
 #include <QVector>
@@ -19,4 +20,5 @@ public:
 
 private:
 	TrueEditor* m_trueEditor = new TrueEditor(this);
+	LineNumberArea* m_lineNumberArea = new LineNumberArea(m_trueEditor);
 };
