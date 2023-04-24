@@ -1,3 +1,4 @@
+#include "editor/Editor.hpp"
 #include "preview/Preview.hpp"
 #include "splitter/Splitter.h"
 
@@ -18,7 +19,7 @@ private:
 	QMenuBar* m_menuBar = new QMenuBar(this);
 	QStatusBar* m_statusBar = new QStatusBar(this);
 	QTreeView* m_treeView = new QTreeView;
-	QPlainTextEdit* m_editor = new QPlainTextEdit;
+	Editor* m_editor = new Editor;
 	Preview* m_preview = new Preview;
 	Splitter* m_splitter = new Splitter(Qt::Horizontal, { m_treeView, m_editor, m_preview }, this);
 };

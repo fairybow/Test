@@ -39,6 +39,15 @@
     <QtMoc Include="source\StartCop.hpp">
       <Filter>Source</Filter>
     </QtMoc>
+    <QtMoc Include="source\editor\Editor.hpp">
+      <Filter>Source\Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="source\editor\TrueEditor.hpp">
+      <Filter>Source\Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="source\editor\LineNumberArea.h">
+      <Filter>Source\Editor</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\Main.cpp">
