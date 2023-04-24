@@ -1,8 +1,6 @@
 #pragma once
 
 #include <QDesktopServices>
-#include <QString>
-#include <QUrl>
 #include <QWebEnginePage>
 
 class WebEnginePage : public QWebEnginePage

@@ -42,7 +42,7 @@
     <QtMoc Include="source\editor\Editor.hpp">
       <Filter>Source\Editor</Filter>
     </QtMoc>
-    <QtMoc Include="source\editor\TrueEditor.hpp">
+    <QtMoc Include="source\editor\TrueEditor.h">
       <Filter>Source\Editor</Filter>
     </QtMoc>
   </ItemGroup>
@@ -57,6 +57,9 @@
       <Filter>Source\Splitter</Filter>
     </ClCompile>
     <ClCompile Include="source\editor\LineNumberArea.cpp">
+      <Filter>Source\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\editor\TrueEditor.cpp">
       <Filter>Source\Editor</Filter>
     </ClCompile>
   </ItemGroup>

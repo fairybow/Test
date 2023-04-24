@@ -1,8 +1,7 @@
 #pragma once
 
 #include "../Layout.hpp"
-#include "LineNumberArea.h"
-#include "TrueEditor.hpp"
+#include "TrueEditor.h"
 
 #include <QVector>
 #include <QWidget>
@@ -15,6 +14,7 @@ public:
 	inline Editor(QWidget* parent = nullptr)
 		: QWidget(parent)
 	{
+		m_trueEditor->setLineNumberArea(m_lineNumberArea);
 		Layout::setStack(this, { m_trueEditor }); // shadow, overlay, trueEditor, underlay
 	}
 

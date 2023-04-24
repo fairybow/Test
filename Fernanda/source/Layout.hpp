@@ -4,7 +4,6 @@
 #include <QStackedLayout>
 #include <QVBoxLayout>
 #include <QVector>
-#include <QWidget>
 
 namespace Layout
 {

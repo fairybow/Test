@@ -3,10 +3,7 @@
 #include "../Layout.hpp"
 #include "TrueSplitter.hpp"
 
-#include <QByteArray>
 #include <QPushButton>
-#include <QRect>
-#include <QResizeEvent>
 #include <QTimer>
 #include <QVector>
 

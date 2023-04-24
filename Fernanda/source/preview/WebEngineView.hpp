@@ -3,7 +3,6 @@
 #include "WebDocument.hpp"
 #include "WebEnginePage.hpp"
 
-#include <QString>
 #include <QWebChannel>
 #include <QWebEngineView>
 

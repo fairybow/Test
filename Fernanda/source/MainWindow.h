@@ -4,8 +4,9 @@
 
 #include <QMainWindow>
 #include <QMenuBar>
-#include <QPlainTextEdit>
 #include <QStatusBar>
+
+// temporary:
 #include <QTreeView>
 
 class MainWindow : public QMainWindow

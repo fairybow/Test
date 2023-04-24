@@ -3,7 +3,6 @@
 #include "SplitterHandle.hpp"
 
 #include <QChildEvent>
-#include <QResizeEvent>
 #include <QSplitter>
 #include <QTimer>
 

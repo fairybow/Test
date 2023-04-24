@@ -1,7 +1,6 @@
 #pragma once
 
 #include <QPainter>
-#include <QSize>
 #include <QSplitterHandle>
 
 class SplitterHandle : public QSplitterHandle

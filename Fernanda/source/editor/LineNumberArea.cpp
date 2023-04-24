@@ -1,5 +1,5 @@
 #include "LineNumberArea.h"
-#include "TrueEditor.hpp"
+#include "TrueEditor.h"
 
 LineNumberArea::LineNumberArea(TrueEditor* parent) : QWidget(parent), m_parent(parent) {}
 
