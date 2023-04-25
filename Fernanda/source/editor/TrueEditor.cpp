@@ -91,11 +91,9 @@ void TrueEditor::highlightCurrentLine()
 
 void TrueEditor::updateLineNumberArea(const QRect& rect, int dy)
 {
-	if (dy)
-		m_lineNumberArea->scroll(0, dy);
-	else
-		m_lineNumberArea->update(0, rect.y(), m_lineNumberArea->width(), rect.height());
-
+	dy
+		? m_lineNumberArea->scroll(0, dy)
+		: m_lineNumberArea->update(0, rect.y(), m_lineNumberArea->width(), rect.height());
 	if (rect.contains(viewport()->rect()))
 		updateLineNumberAreaWidth(0);
 }

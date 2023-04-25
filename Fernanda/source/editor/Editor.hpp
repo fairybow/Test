@@ -15,6 +15,7 @@ public:
 		: QWidget(parent)
 	{
 		m_trueEditor->setObjectName(name);
+		m_lineNumberArea->setObjectName(name + QString("-line-number-area"));
 		m_trueEditor->setLineNumberArea(m_lineNumberArea);
 		Layout::setStack(this, { m_trueEditor }); // shadow, overlay, trueEditor, underlay
 	}
