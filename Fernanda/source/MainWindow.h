@@ -1,13 +1,13 @@
+#pragma once
+
 #include "editor/Editor.hpp"
 #include "preview/Preview.hpp"
 #include "splitter/Splitter.h"
+#include "tree/Tree.hpp"
 
 #include <QMainWindow>
 #include <QMenuBar>
 #include <QStatusBar>
-
-// temporary:
-#include <QTreeView>
 
 class MainWindow : public QMainWindow
 {
@@ -19,8 +19,8 @@ public:
 private:
 	QMenuBar* m_menuBar = new QMenuBar(this);
 	QStatusBar* m_statusBar = new QStatusBar(this);
-	QTreeView* m_treeView = new QTreeView;
+	Tree* m_tree = new Tree;
 	Editor* m_editor = new Editor;
 	Preview* m_preview = new Preview;
-	Splitter* m_splitter = new Splitter(Qt::Horizontal, { m_treeView, m_editor, m_preview }, this);
+	Splitter* m_splitter = new Splitter(Qt::Horizontal, { m_tree, m_editor, m_preview }, this);
 };

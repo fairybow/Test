@@ -117,13 +117,15 @@
     <ClInclude Include="source\preview\WebEnginePage.hpp" />
     <ClInclude Include="source\preview\WebEngineView.hpp" />
     <ClInclude Include="source\splitter\SplitterHandle.hpp" />
+    <QtMoc Include="source\tree\Tree.hpp" />
+    <ClInclude Include="source\tree\StyledItemDelegate.hpp" />
     <ClInclude Include="source\Version.hpp" />
     <QtMoc Include="source\StartCop.hpp" />
     <QtMoc Include="source\splitter\TrueSplitter.hpp" />
     <QtMoc Include="source\splitter\Splitter.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="resource\Resource.rc" />
+    <ResourceCompile Include="resources\Resource.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

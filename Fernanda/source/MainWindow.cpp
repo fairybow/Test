@@ -20,7 +20,7 @@ MainWindow::MainWindow(QWidget* parent)
 		button->setChecked(true);
 	}
 	toggle_editor->setDisabled(true);
-	connect(toggle_tree_view, &QPushButton::toggled, this, [&](bool checked) { m_treeView->setVisible(checked); });
+	connect(toggle_tree_view, &QPushButton::toggled, this, [&](bool checked) { m_tree->setVisible(checked); });
 	connect(toggle_preview, &QPushButton::toggled, this, [&](bool checked) { m_preview->setVisible(checked); });
 	m_splitter->initialize({ 0.2, 0.4, 0.4 }, 1);
 }
