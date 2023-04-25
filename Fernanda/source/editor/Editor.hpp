@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Layout.hpp"
+#include "../common/Layout.hpp"
 #include "TrueEditor.h"
 
 #include <QVector>

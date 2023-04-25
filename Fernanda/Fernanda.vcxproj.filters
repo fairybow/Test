@@ -25,6 +25,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{fd287913-ab0b-46c5-9b7f-2afd98a423e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="Cpp.hint" />
@@ -69,9 +72,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\Layout.hpp">
-      <Filter>Source</Filter>
-    </ClInclude>
     <ClInclude Include="source\preview\WebDocument.hpp">
       <Filter>Source\Preview</Filter>
     </ClInclude>
@@ -98,6 +98,9 @@
     </ClInclude>
     <ClInclude Include="source\tree\Tree.hpp">
       <Filter>Source\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="source\common\Layout.hpp">
+      <Filter>Source\Common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

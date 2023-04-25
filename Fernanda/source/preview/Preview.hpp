@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Layout.hpp"
+#include "../common/Layout.hpp"
 #include "WebEngineView.hpp"
 
 class Preview : public QWidget

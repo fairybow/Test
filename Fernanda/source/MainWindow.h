@@ -1,5 +1,6 @@
 #pragma once
 
+#include "common/Layout.hpp"
 #include "editor/Editor.hpp"
 #include "preview/Preview.hpp"
 #include "splitter/Splitter.h"
