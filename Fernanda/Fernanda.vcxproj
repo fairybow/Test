@@ -117,7 +117,7 @@
     <ClInclude Include="source\preview\WebEnginePage.hpp" />
     <ClInclude Include="source\preview\WebEngineView.hpp" />
     <ClInclude Include="source\splitter\SplitterHandle.hpp" />
-    <QtMoc Include="source\tree\Tree.hpp" />
+    <ClInclude Include="source\tree\Tree.hpp" />
     <ClInclude Include="source\tree\StyledItemDelegate.hpp" />
     <ClInclude Include="source\Version.hpp" />
     <QtMoc Include="source\StartCop.hpp" />

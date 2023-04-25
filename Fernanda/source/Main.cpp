@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	QApplication::setHighDpiScaleFactorRoundingPolicy(Qt::HighDpiScaleFactorRoundingPolicy::PassThrough);
 	QApplication::setDesktopSettingsAware(true);
 	QApplication fernanda(argc, argv);
-	MainWindow main_window;
+	MainWindow main_window("MainWindow");
 	main_window.show();
 	return fernanda.exec();
 }
