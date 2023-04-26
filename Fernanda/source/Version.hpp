@@ -1,5 +1,8 @@
 #pragma once
 
+#define VER_REPO \
+0
+
 #define VER_FILEVERSION \
 0,0,0,0
 
