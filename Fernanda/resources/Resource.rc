@@ -3,15 +3,12 @@
 #include <Windows.h>
 
 #if defined(VER_REPO) && VER_REPO == 0
-
 IDI_ICON1 ICON DISCARDABLE "Fernanda-core.ico"
 
 #elif defined(VER_REPO) && VER_REPO == 1
-
 IDI_ICON1 ICON DISCARDABLE "Fernanda-dev.ico"
 
 #else
-
 IDI_ICON1 ICON DISCARDABLE "Fernanda.ico"
 
 #endif
